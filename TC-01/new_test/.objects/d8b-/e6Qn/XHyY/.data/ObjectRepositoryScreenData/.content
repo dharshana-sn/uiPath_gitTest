@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="XbmXaSjNC068cW0LHJZRsw" Reference="NABgu_QaL0SIz1KHDnUUyg/XHyY0PKUnEe6Wl0gDqBI1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="Ex-1gKFRtkiVDX39K8YCGg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATuSURBVFhHtZf9T1NXGMf7r3gvC3NONmMWjTHELAQ3F7eMbHPT7YctGzEzyjadGzO+BLcwtChoEWgptLwK4st4GWoUcOVFEA2rRcQi4LopQV4q99z29vW7nFu87e1ppbrxJJ8fep/nOd/vPffcc3s0moUQTnAZgj7FQurS3KT+LSwJdWluqkG1nurKMa9L0oqtn8JlzYfLVrC0WPNBtaimcueyeHThEkM15ZmgU/Jf79zjaIPfeRfef64wubhY80G1NfS5MMko3CPl8E52hwSGTqpy0vg5RMa07QzTHw+qraGLIzoRiXvEiKBfUgR8T8ZArMeUvHfSojJws7WCGSMeVHtRA95H11QCNGwX9il59z0T/F63fN3nldB4OPH1tGBgI1y3j8XF4/hdJe7zSLio3aKquX85Bx0VB1C/PwP3mnYzY8SDamvI6XS4/jwSH6sWcw8GZHGv5ELLib0YrMlk62IgjTXI68ZtK2RyFKpNFyFcg788k5nu/bhauA0N2Wm4Uf4Zk4+FZDcrszYzfhNP+g8xNVRbQ+rehOvWQZb+bLi6v4PYlQVX97dw9f3I1jwDz3iDYuDRqA13GzOZGqqtIbUb4BrIhtiRCXJuM4hpLYgpFeLp9yAUJUM4yYcpSgYxrQE5+w7E9i/lPtfATzEhA/tg7zmPCWsvzuRsw4xlN1tTuwF0I6IbgiIiXTsMBPyy88CMHU79GrWJSEpfBTm/GWJvFsT+PQyzlizYarbhcedOJkchtanQCCc5CDpehhhWAX6vMnU0htoMmCsM5eNS8jJI07sQr++E2LcrYUjNemgEHQehiE4vD1KZqhKnYW0/i6GccM0zKX8d5OIHEHu3JwSpWbdg4BSv4Hf0KOKBgB81+7diPC+cTwjjSpAL6RA7tkLs/iIupHptyAAp5hWcpSsx2JiLG80mVGV/iNZd6vxzY1wBUksX7gaITekQWzZBbN0EsXkjiDEFGqGIAynhVcwX87D/ysORr77+f0O1YxpQML4GYniFvb4YFavh6cqBd9AAqX0PiGE5WxM2wEPQJ6kg5jfge9AJBIPyW+G5XQVnaTJTFwux4W0ExceqhRx4fAeCaTVTS7XlGRD01EQY3/021QA0bOdz4aSuo2qj8U/eim6VY8JSyfbLM3CKAzHQPSAMIr7/T+OBrR83D7G1kYjmVdFtSsw+nED/AXU/1Q4ZKONVBMWp6H6MXL+M9r0ciPEleHp/RmB6GAHnGLy3yyGaU0K95hQgGIhulWPaMYrWb9RaYQNGuuDCSD05qma/z4uq7I8wlMvBO1isytGQ/urBbEmS3Ot3sH9gaHQ16ND+g1orZKCYAynnGe7U7sCdrhZYrzbC9P37+I3uB+YVgI99PDT6TmTIfXPV6zHzt12VGx3oxPFPluMh3e4jNKj2goHY2LUc+g5yGM0P/Rbr16kGjowm7Q4IxlCdLS8ZzUczcUl/ENX7PkbBFg62XHb8sIGKBDElIShORmsjGAigdHsqBDrwQu1cGYfhIxyGj3JwlsUYqyJswC2aOCSKdOUrBHzqL+YfdQVo+HoZU7sYVJt+CyzETJ9v4owY0tHbqEPfhTL5Y2X8fBmm9GzdYlBt+Wgmv5eVz8eUnoc1j4P9OA/BzOYXhe4DTw+p8zpe+yImXhgDD6qpOiHLx/MiziKUcG6hhMMS4ZY1Io7n/wKSkQ/2Gb8fkwAAAABJRU5ErkJggg==" Reference="NABgu_QaL0SIz1KHDnUUyg/XHyY0PKUnEe6Wl0gDqBI1w" Selector="&lt;html app='chrome.exe' title='Home - Cyclos' /&gt;" Url="https://demo.cyclos.org/ui/home" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="57a482d18270dc2dddb0da14efb76f5b.jpg" xmlns="">0nLQUSk6fhUe1BHvKms4BnQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

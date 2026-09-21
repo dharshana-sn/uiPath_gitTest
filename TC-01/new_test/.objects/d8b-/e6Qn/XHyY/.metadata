@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Home - Cyclos",
+  "Type": "Screen",
+  "Id": "XHyY0PKUnEe6Wl0gDqBI1w",
+  "Reference": "NABgu_QaL0SIz1KHDnUUyg/XHyY0PKUnEe6Wl0gDqBI1w",
+  "ParentRef": "NABgu_QaL0SIz1KHDnUUyg/e6QnIH-mUkyJMChPk5jGig",
+  "Created": "2026-09-15T11:53:41.5653306Z",
+  "Updated": "2026-09-15T11:53:41.5653306Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tk0hLvjCwkmMMelANGlmBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demo.cyclos.org/ui/home" DesignTimeRectangle="1531, 230, 129, 72" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='login-link' tag='A' /&gt;" Guid="1c7ca752-27b7-49e1-a837-319b75ea2717" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home - Cyclos' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c44c00163a0d09310dacc246a297def.jpg" xmlns="">0WJkmg4n4bE2S7OQftJnaiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
