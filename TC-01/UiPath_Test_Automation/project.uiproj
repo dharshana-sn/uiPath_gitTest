@@ -1,0 +1,6 @@
+{
+  "Name": "UiPath_Test_Automation",
+  "ProjectType": "Tests",
+  "Description": "New Test Automation Framework",
+  "MainFile": "Main.xaml"
+}

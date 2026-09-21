@@ -1,0 +1,64 @@
+{
+  "name": "UiPath_Test_Automation_Practice",
+  "description": "New Test Automation Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[24.10.4]",
+    "UiPath.Testing.Activities": "[24.10.1]",
+    "UiPath.UIAutomation.Activities": "[24.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.1",
+  "studioVersion": "26.0.201.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6389127e-706e-4c59-8faa-db7f5c32c491",
+        "executionTemplatePath": ".templates\\TestFramework.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
