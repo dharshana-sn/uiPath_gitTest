@@ -1,0 +1,196 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="login_flow" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="login_flow_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="login_flow" sap:VirtualizedContainerService.HintSize="728.4000000000001,1022.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home - Cyclos" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,999.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="038cc218-ebb7-49ae-bee4-07c645984dd3" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,804.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.cyclos.org/ui/home" DesignTimeRectangle="1531, 230, 129, 72" DesignTimeScaleFactor="1.25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='login-link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-link' tag='A' type='' class='nav-item menu-item density-spacious' aaname='         Login ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Login' /&gt;" Guid="b1e8f09b-76c5-48a8-8645-047c0f4b0857" InformativeScreenshot="55e2fa0df7dad08bec2eadb0ed4f483e.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home - Cyclos' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Text="demo" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.cyclos.org/ui/login" DesignTimeRectangle="817, 671, 332, 48" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control ng-untouched ng-pristine ng-valid' placeholder='User' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b6378fa5-8956-431e-9d65-11d182b246ac" InformativeScreenshot="fbe96d92a74393c2cc84d29c6bcc00f4.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Cyclos' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Text="1234" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="demo.cyclos.org/ui/login" DesignTimeRectangle="817, 739, 285, 48" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control ng-untouched ng-pristine ng-valid' placeholder='Password' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2cfc5ed-a529-43f9-bc6a-0521ce957a27" InformativeScreenshot="073beaab996c6231394ddbcee6d83373.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Cyclos' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.cyclos.org/ui/login" DesignTimeRectangle="771, 827, 378, 47" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Submit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Submit' tag='BUTTON' type='button' class='btn d-flex justify-content-center align-items-center w-100 h-100 btn-primary btn-action-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Submit' /&gt;" Guid="764781c7-dd93-4610-b808-8ebccf84f2c1" InformativeScreenshot="9feba509cc1b530670f174d6fbfa6dcb.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Cyclos' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="932, 837, 55, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Submit' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Submit' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Submit' /&gt;" Guid="bad4f035-b4f0-4260-b6a1-fc22910b6956" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="" DesignTimeRectangle="9, 230, 1920, 799" DesignTimeScaleFactor="1.25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Horizontal' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Chrome Legacy Window' /&gt;" Guid="f1ce84d5-b794-473b-ae76-3dccdd121845" InformativeScreenshot="613a578ebe1ce88463dd11690587ea5c.jpg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Dashboard - Cyclos - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="038cc218-ebb7-49ae-bee4-07c645984dd3" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="demo.cyclos.org/ui/dashboard" DesignTimeRectangle="1635, 253, 26, 26" DesignTimeScaleFactor="1.25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='logout-trigger' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='logout-trigger' tag='svg' type='' class='ci ci-logout2' aaname='       ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cc4b05f2-5003-4a0b-80c4-137da23b2b0d" InformativeScreenshot="a71ef85a50180863e099366d7e331380.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - Cyclos' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="62bbfa53f009ad3383b789601a3268a8.jpg" Selector="&lt;html app='chrome.exe' title='Home - Cyclos' /&gt;" Url="https://demo.cyclos.org/ui/home" Version="V3" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
