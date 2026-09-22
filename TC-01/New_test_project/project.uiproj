@@ -1,0 +1,6 @@
+{
+  "Name": "New_test_project",
+  "ProjectType": "Process",
+  "Description": "Testing project for git ",
+  "MainFile": "Main.xaml"
+}
