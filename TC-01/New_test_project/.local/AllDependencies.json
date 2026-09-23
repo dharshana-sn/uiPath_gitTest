@@ -20412,9 +20412,9 @@
     "restore": {
       "projectUniqueName": "New_test_project",
       "projectName": "New_test_project",
-      "projectPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\New_test_project\\.local",
+      "projectPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\uiPath_gitTest\\TC-01\\New_test_project\\.local",
       "packagesPath": "C:\\Users\\TGT1099\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\New_test_project\\.local",
+      "outputPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\uiPath_gitTest\\TC-01\\New_test_project\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"
@@ -20434,7 +20434,7 @@
             "version": "[26.10.4, 26.10.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\TGT1099\\AppData\\Local\\Programs\\UiPathPlatform\\Studio\\26.0.202-cloud.24997\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\TGT1099\\AppData\\Local\\Programs\\UiPathPlatform\\Studio\\26.0.202-cloud.24997\\SolutionPackager\\Tools\\WorkflowCompiler\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
