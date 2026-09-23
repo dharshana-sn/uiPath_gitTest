@@ -20414,9 +20414,9 @@
     "restore": {
       "projectUniqueName": "new_test",
       "projectName": "new_test",
-      "projectPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\Main_project\\TC-01\\new_test\\.local",
+      "projectPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\uiPath_gitTest\\TC-01\\new_test\\.local",
       "packagesPath": "C:\\Users\\TGT1099\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\Main_project\\TC-01\\new_test\\.local",
+      "outputPath": "C:\\Users\\TGT1099\\Documents\\UiPath\\uiPath_gitTest\\TC-01\\new_test\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"
